@@ -9,17 +9,16 @@ import {
 export default function Navigation() {
   return (
     <Navbar fluid rounded>
-      <NavbarBrand href="https://flowbite-react.com">
+      <NavbarBrand href="#hero">
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Foti Ceci
+          FC
         </span>
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse>
-        <NavbarLink href="#">About</NavbarLink>
-        <NavbarLink href="#">Projects</NavbarLink>
-        <NavbarLink href="#">Skills</NavbarLink>
-        <NavbarLink href="#">Contact</NavbarLink>
+        <NavbarLink href="#experience">Experience</NavbarLink>
+        <NavbarLink href="#projects">Projects</NavbarLink>
+        <NavbarLink href="#contact">Contact</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );
