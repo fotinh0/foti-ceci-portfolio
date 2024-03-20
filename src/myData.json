@@ -50,21 +50,21 @@
   "projects": [
     {
       "title": "IBM Training",
-      "imageUrl": "/src/assets/IBMTraining.png",
+      "imageUrl": "../public/IBMTraining.png",
       "projectUrl": "https://www.ibm.com/training/",
       "descriptions": "This application serves as a comprehensive platform for individuals and organizations to access a diverse range of courses and resources aimed at enhancing technology skills. My involvement ensured seamless user experiences and efficient functionality, contributing to the platform's success in empowering learners worldwide.",
       "technologies": ["React", "Node", "SCSS", "DB2"]
     },
     {
       "title": "FA Euro Official Site",
-      "imageUrl": "/src/assets/FAEuroNY.png",
+      "imageUrl": "../public/FAEuroNY.png",
       "projectUrl": "https://www.faeuro.com/",
       "descriptions": "This platform offers the latest news on the club, seamless purchasing of club merchandise, and a hub for active players. I ensured smooth functionality and user-friendly navigation, empowering users to engage with the club and manage their transactions efficiently.",
       "technologies": ["Wix", "JavaScript", "E-commerce", "SEO"]
     },
     {
       "title": "PCI Media Website",
-      "imageUrl": "/src/assets/PCIMediaInc.png",
+      "imageUrl": "../public/PCIMediaInc.png",
       "projectUrl": "https://www.pcimedia.org/",
       "descriptions": "Acomprehensive website offering insights into PCI Media's initiatives, providing a platform for impactful storytelling, and facilitating donations to support their cause. I helped enhance the website's functionality, making it an effective tool for promoting social and environmental change worldwide.",
       "technologies": ["Divi", "JavaScript", "WordPress", "SEO"]
