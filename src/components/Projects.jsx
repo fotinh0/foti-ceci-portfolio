@@ -56,14 +56,14 @@ export default function Projects() {
                     ))}
                   </ul>
                 </div>
-                <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+                <div className="p-2 lg:w-full my-auto lg:max-w-md lg:flex-shrink-0">
                   <a
                     href={project.projectUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <img
-                      className="h-full object-contain "
+                      className="object-contain rounded-3xl"
                       src={project.imageUrl}
                     ></img>
                   </a>

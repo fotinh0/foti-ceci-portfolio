@@ -138,8 +138,7 @@ export default function Experience() {
                               className="flex gap-x-3 mb-3 text-left"
                             >
                               <ChevronDoubleRightIcon
-                                className="h-6 w-
-                    flex-none text-indigo-400"
+                                className="h-6 w-5 flex-none text-indigo-400"
                                 aria-hidden="true"
                               />
                               {item}
@@ -159,8 +158,9 @@ export default function Experience() {
                 onChange={handleChange}
                 aria-label="Job tabs"
                 variant="scrollable"
-                scrollButtons="auto"
-                className="vertical-tabs" // Hide for small screens
+                scrollButtons
+                allowScrollButtonsMobile
+                className="horizontal-tabs" // Hide for small screens
                 sx={{
                   borderBottom: 0.5,
                   borderColor: "#d1d5db",
@@ -223,7 +223,7 @@ export default function Experience() {
                               className="flex gap-x-3 mb-3 text-left"
                             >
                               <ChevronDoubleRightIcon
-                                className="h-6 w-6 flex-none text-indigo-400"
+                                className="h-6 w-5 flex-none text-indigo-400"
                                 aria-hidden="true"
                               />
                               {item}
