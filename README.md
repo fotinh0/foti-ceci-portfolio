@@ -1,11 +1,11 @@
 # Foti Ceci Portfolio
 
-Welcome my personal portfolio.
+Welcome my personal portfolio. <br/>
 Live URL: [www.foticeci.com](https://www.foticeci.com) 
 
 
-<!-- ## Screenshot 
-[website screenshot]() -->
+## Screenshot 
+<img width="898" alt="fc-portfolio" src="https://github.com/fotinh0/my-portfolio/assets/67170897/825cfcc4-b7c2-4ea9-a9da-da36cbab5c60">
 
 
 ## Built With
