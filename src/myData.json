@@ -1,0 +1,73 @@
+{
+  "experiences": [
+    {
+      "id": 0,
+      "position": "Software Developer",
+      "company": "IBM",
+      "duration": "January 2022 - Present",
+      "description": [
+        "Develop and maintain internal and external web applications serving over 1.5 million users.",
+        "Create user interfaces encompassing authentication, interactions, responsive layouts, and styling.",
+        "Implement RESTful APIs and microservices architecture to facilitate seamless communication between front-endand back-end systems.",
+        "Collaborate with cross-functional teams using Agile methodologies to ensure alignment with business objectives and user needs."
+      ]
+    },
+    {
+      "id": 1,
+      "position": "Web Developer",
+      "company": "FA Euro New York",
+      "duration": "August 2021 - January 2022",
+      "description": [
+        "Developed and maintained website updates and enhancements using Wix Code for custom functionality.",
+        "Integrated secure payment gateways and e-commerce functionalities for streamlined transactions, yielding an annual revenue exceeding $500K.",
+        "Optimized website performance and SEO strategies.",
+        "Monitored website analytics and user feedback to identify areas for improvement and implement data-driven strategies."
+      ]
+    },
+    {
+      "id": 2,
+      "position": "Freelance Frontend Developer",
+      "company": "Freelance",
+      "duration": "May 2021 - January 2022",
+      "description": [
+        "Collaborated closely with clients to understand project requirements, provide technical recommendations, and deliver solutions to exceed business needs and objectives.",
+        "Developed dynamic websites and applications using React.js.",
+        "Revamped performance and loading times."
+      ]
+    },
+    {
+      "id": 3,
+      "position": "Multimedia Assets and Information Management Intern",
+      "company": "PCI Media Inc.",
+      "duration": "November 2020 - February 2021",
+      "description": [
+        "Enhanced UI/UX via WordPress.",
+        "Leveraged SEO techniques and Google Analytics to increase website traffic.",
+        "Created and managed media database system with over 1,000 assets."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "IBM Training",
+      "imageUrl": "/src/assets/IBMTraining.png",
+      "projectUrl": "https://www.ibm.com/training/",
+      "descriptions": "",
+      "technologies": ["React", "Node", "SCSS", "DB2"]
+    },
+    {
+      "title": "FA Euro Official Site",
+      "imageUrl": "/src/assets/FAEuroNY.png",
+      "projectUrl": "https://www.faeuro.com/",
+      "descriptions": "",
+      "technologies": ["Wix", "JavaScript", "E-commerce", "SEO"]
+    },
+    {
+      "title": "PCI Media Website",
+      "imageUrl": "/src/assets/PCIMediaInc.png",
+      "projectUrl": "https://www.pcimedia.org/",
+      "descriptions": "",
+      "technologies": ["Divi", "JavaScript", "WordPress", "SEO"]
+    }
+  ]
+}
