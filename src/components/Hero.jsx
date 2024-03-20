@@ -6,8 +6,8 @@ import {
   ArrowDownTrayIcon,
   ArrowDownIcon,
 } from "@heroicons/react/24/outline";
-import logo from "../../public/logo.svg";
-import resume from "../../public/Foti-Ceci-Resume.pdf";
+import logo from "/logo.svg";
+import resume from "/public/Foti-Ceci-Resume.pdf";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
