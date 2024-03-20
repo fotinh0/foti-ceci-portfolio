@@ -91,10 +91,9 @@ export default function Hero() {
               />
             </a>
             <a
-              onClick={() => {
-                window.open(resume, "_blank");
-              }}
-              download="Foti Ceci Resume"
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex rounded-md px-3.5 py-2.5 text-sm font-semibold text-indigo-400 border-2 border-indigo-400 cursor-pointer rounded-md transition ease-in-out hover:-translate-y-1  hover:-translate-x-1 hover:shadow-custom"
             >
               Resume <ArrowDownTrayIcon className="ml-5 h-5 w-5" />
@@ -129,6 +128,7 @@ export default function Hero() {
                   <a
                     key={item.name}
                     href={item.href}
+                    onClick={() => setMobileMenuOpen(false)}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 scroll-smooth"
                   >
                     {item.name}
