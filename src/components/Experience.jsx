@@ -50,7 +50,7 @@ export default function Experience() {
   };
 
   return (
-    <div id="experience" className="bg-[#0a192f] py-24 sm:py-32">
+    <div id="experience" className="bg-[#0a192f] pt-16 min-h-55 md:min-h-50">
       <div className="relative isolate  pt-14 lg:px-8">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl">
@@ -223,8 +223,7 @@ export default function Experience() {
                               className="flex gap-x-3 mb-3 text-left"
                             >
                               <ChevronDoubleRightIcon
-                                className="h-6 w-
-                    flex-none text-indigo-400"
+                                className="h-6 w-6 flex-none text-indigo-400"
                                 aria-hidden="true"
                               />
                               {item}

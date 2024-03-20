@@ -10,6 +10,13 @@ module.exports = {
       boxShadow: {
         custom: "4px 4px 0 0 #818cf8",
       },
+      minHeight: {
+        50: "50rem",
+        55: "55rem",
+      },
+      rotate: {
+        360: "360deg",
+      },
     },
   },
   plugins: [require("flowbite/plugin"), require("@tailwindcss/forms")],

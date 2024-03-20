@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div id="contact" className="isolate px-6 py-24 sm:py-32 lg:px-8">
+    <div id="contact" className="isolate px-6 py-24 lg:px-8">
       <div
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
         aria-hidden="true"
@@ -18,7 +18,16 @@ export default function Contact() {
           Get In Touch
         </h2>
         <p className="mt-2 text-lg leading-8 text-gray-300">
-          Feel free to reach out for any questions or to just say hello.
+          Whether you have questions or just want to say hello, don&apos;t
+          hesitate to get in touch. You can reach me by filling out the form
+          below or emailing me directly at{" "}
+          <a
+            className="text-indigo-400 font-bold hover:underline"
+            href="mailto:foti.ceci@gmail.com"
+          >
+            foti.ceci@gmail.com
+          </a>
+          .
         </p>
       </div>
       <form

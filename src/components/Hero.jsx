@@ -8,6 +8,8 @@ import {
 } from "@heroicons/react/24/outline";
 import logo from "../assets/logo.svg";
 import resume from "../assets/Foti-Ceci-Resume.pdf";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const navigation = [
   { name: "Experience", href: "#experience" },
@@ -26,7 +28,7 @@ export default function Hero() {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <a href="/" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5 hover:animate-spin">
               <span className="sr-only">Foti Ceci</span>
               <img className="h-10 w-auto" src={logo} alt="FC logo" />
             </a>
@@ -56,7 +58,38 @@ export default function Hero() {
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+
+          <div className="hidden lg:items-center lg:flex lg:flex-1 lg:gap-x-12 lg:justify-end">
+            <a
+              href="https://www.linkedin.com/in/foti-ceci/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkedInIcon
+                className="transition ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:shadow-custom rounded"
+                style={{
+                  fill: "white",
+                  width: "1.75rem",
+                  height: "auto",
+                  cursor: "pointer",
+                }}
+              />
+            </a>
+            <a
+              href="https://github.com/fotinh0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GitHubIcon
+                className="transition ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:shadow-custom rounded-2xl"
+                style={{
+                  fill: "white",
+                  width: "1.75rem",
+                  height: "auto",
+                  cursor: "pointer",
+                }}
+              />
+            </a>
             <a
               onClick={() => {
                 window.open(resume, "_blank");
@@ -102,11 +135,40 @@ export default function Hero() {
                   </a>
                 ))}
                 <div className="py-6">
+                  <div className="flex gap-x-8">
+                    <a
+                      href="https://www.linkedin.com/in/foti-ceci/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <LinkedInIcon
+                        style={{
+                          fill: "#0a66c2",
+                          width: "1.75rem",
+                          height: "auto",
+                          cursor: "pointer",
+                        }}
+                      />
+                    </a>
+                    <a
+                      href="https://github.com/fotinh0"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon
+                        style={{
+                          width: "1.75rem",
+                          height: "auto",
+                          cursor: "pointer",
+                        }}
+                      />
+                    </a>
+                  </div>
                   <a
                     onClick={() => {
                       window.open(resume, "_blank");
                     }}
-                    className="flex rounded-md px-3.5 py-2.5 text-sm font-semibold mt-4 max-w-32 rounded-md text-indigo-600 border-2 border-indigo-500 cursor-pointer transition ease-in-out hover:-translate-y-1  hover:-translate-x-1 hover:shadow-custom"
+                    className="flex rounded-md px-3.5 py-2.5 text-sm font-semibold mt-8 max-w-32 rounded-md text-indigo-600 border-2 border-indigo-500 cursor-pointer transition ease-in-out hover:-translate-y-1  hover:-translate-x-1 hover:shadow-custom"
                   >
                     Resume <ArrowDownTrayIcon className="ml-5 h-5 w-5" />
                   </a>
@@ -138,10 +200,10 @@ export default function Hero() {
             <h2 className="mb-12 text-4xl font-bold tracking-tight text-white sm:text-6xl">
               Foti Ceci
             </h2>
-            <h1 className="text-3xl font-bold tracking-tight text-gray-400 sm:text-5xl">
+            <h1 className="animate-bounce text-3xl font-bold tracking-tight text-gray-300 sm:text-5xl">
               I like to code all web things.
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-400">
+            <p className="mt-6 text-lg leading-8 text-gray-300">
               I&apos;m a software developer specializing in crafting dynamic web
               applications with a strong foundation in full-stack development.
               Currently, I&apos;m immersed in the exciting challenge of creating

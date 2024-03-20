@@ -7,7 +7,7 @@ import {
 export default function Projects() {
   let projects = myData.projects;
   return (
-    <div id="projects" className="py-24 sm:py-32">
+    <div id="projects" className="pt-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -29,13 +29,11 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <ArrowTopRightOnSquareIcon className="h-6 w-5 cursor-pointer" />
+                      <ArrowTopRightOnSquareIcon className="h-6 w-6 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:shadow-custom rounded" />
                     </a>
                   </h3>
-                  <p className="mt-6 text-left leading-7 text-gray-300">
-                    Lorem ipsum dolor sit amet consect etur adipisicing elit.
-                    Itaque amet indis perferendis blanditiis repellendus etur
-                    quidem assumenda.
+                  <p className="mt-6 text-left text-sm leading-7 text-gray-300">
+                    {project.descriptions}
                   </p>
                   <div className="mt-10 flex items-center gap-x-4">
                     <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">
@@ -65,7 +63,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                   >
                     <img
-                      className="h-full object-contain"
+                      className="h-full object-contain "
                       src={project.imageUrl}
                     ></img>
                   </a>
