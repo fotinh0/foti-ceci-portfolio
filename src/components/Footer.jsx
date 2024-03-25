@@ -3,13 +3,13 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Footer() {
   return (
-    <div id="footer" className="cursor-pointer text-gray-300 text-sm">
+    <div id="footer" className="text-gray-300 text-sm">
       <div className="flex gap-x-8 justify-center mb-8">
         <a
           href="https://www.linkedin.com/in/foti-ceci/"
           target="_blank"
           rel="noopener noreferrer"
-          className="transition ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:shadow-custom rounded"
+          className="cursor-pointer transition ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:shadow-custom rounded"
         >
           <LinkedInIcon
             style={{
@@ -24,7 +24,7 @@ export default function Footer() {
           href="https://github.com/fotinh0"
           target="_blank"
           rel="noopener noreferrer"
-          className="transition ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:shadow-custom rounded-2xl"
+          className="cursor-pointer transition ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:shadow-custom rounded-2xl"
         >
           <GitHubIcon
             style={{
@@ -40,6 +40,7 @@ export default function Footer() {
         href="https://github.com/fotinh0/foti-ceci-portfolio"
         target="_blank"
         rel="noopener noreferrer"
+        className="cursor-pointer"
       >
         © 2024 Built by Foti Ceci.
       </a>
