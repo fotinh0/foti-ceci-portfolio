@@ -29,7 +29,7 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <ArrowTopRightOnSquareIcon className="h-6 w-6 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:shadow-custom rounded" />
+                      <ArrowTopRightOnSquareIcon className="h-6 w-6 cursor-pointer transition ease-in-out hover:-translate-y-px hover:-translate-x-px hover:shadow-custom rounded" />
                     </a>
                   </h3>
                   <p className="mt-6 text-left text-sm leading-7 text-gray-300">
@@ -63,7 +63,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                   >
                     <img
-                      className="object-contain rounded-3xl"
+                      className="object-contain rounded-3xl transition ease-in-out hover:outline hover:outline-2 hover:outline-offset-2 hover:outline-indigo-600"
                       src={project.imageUrl}
                     ></img>
                   </a>

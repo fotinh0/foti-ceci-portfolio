@@ -66,7 +66,7 @@ export default function Hero() {
               rel="noopener noreferrer"
             >
               <LinkedInIcon
-                className="transition ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:shadow-custom rounded"
+                className="transition ease-in-out hover:-translate-y-px hover:-translate-x-px hover:shadow-custom rounded"
                 style={{
                   fill: "white",
                   width: "1.75rem",
@@ -81,7 +81,7 @@ export default function Hero() {
               rel="noopener noreferrer"
             >
               <GitHubIcon
-                className="transition ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:shadow-custom rounded-2xl"
+                className="transition ease-in-out hover:-translate-y-px hover:-translate-x-px hover:shadow-custom rounded-2xl"
                 style={{
                   fill: "white",
                   width: "1.75rem",
