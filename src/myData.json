@@ -53,7 +53,7 @@
       "imageUrl": "./IBMTraining.png",
       "projectUrl": "https://www.ibm.com/training/",
       "descriptions": "This application serves as a comprehensive platform for individuals and organizations to access a diverse range of courses and resources aimed at enhancing technology skills. My involvement ensured seamless user experiences and efficient functionality, contributing to the platform's success in empowering learners worldwide.",
-      "technologies": ["React", "Node", "SCSS", "DB2"]
+      "technologies": ["React", "NodeJS", "SCSS", "DB2"]
     },
     {
       "title": "FA Euro Official Site",
