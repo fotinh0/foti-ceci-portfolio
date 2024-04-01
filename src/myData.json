@@ -68,6 +68,14 @@
       "projectUrl": "https://www.pcimedia.org/",
       "descriptions": "A comprehensive website offering insights into PCI Media's initiatives, providing a platform for impactful storytelling, and facilitating donations to support their cause. I helped enhance the website's functionality, making it an effective tool for promoting social and environmental change worldwide.",
       "technologies": ["Divi", "JavaScript", "WordPress", "SEO"]
+    },
+    {
+      "title": "YouTube Clone",
+      "imageUrl": "./youtube-clone.png",
+      "projectUrl": "https://youtubeclonefc.netlify.app/",
+      "githubUrl": "https://github.com/fotinh0/youtube-clone",
+      "descriptions": "A clone of YouTube showcasing the usage of YouTube Data API.",
+      "technologies": ["React", "Vite", "SCSS", "YouTube Data API"]
     }
   ]
 }

@@ -1,3 +1,4 @@
+import { GitHub } from "@mui/icons-material";
 import myData from "../myData.json";
 import {
   ChevronDoubleRightIcon,
@@ -31,6 +32,15 @@ export default function Projects() {
                     >
                       <ArrowTopRightOnSquareIcon className="h-6 w-6 cursor-pointer transition ease-in-out hover:-translate-y-px hover:-translate-x-px hover:shadow-custom rounded" />
                     </a>
+                    {project.githubUrl && (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <GitHub className="h-6 w-6 cursor-pointer transition ease-in-out hover:-translate-y-px hover:-translate-x-px hover:shadow-custom rounded" />
+                      </a>
+                    )}
                   </h3>
                   <p className="mt-6 text-left text-sm leading-7 text-gray-300">
                     {project.descriptions}
