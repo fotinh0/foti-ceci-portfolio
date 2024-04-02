@@ -23,25 +23,29 @@ export default function Projects() {
                 className="mx-auto max-w-2xl rounded-3xl ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none"
               >
                 <div className="p-8 sm:p-10 lg:flex-auto">
-                  <h3 className="text-2xl font-bold gap-6 tracking-tight text-white flex items-center">
-                    {project.title}{" "}
-                    <a
-                      href={project.projectUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ArrowTopRightOnSquareIcon className="h-6 w-6 cursor-pointer transition ease-in-out hover:-translate-y-px hover:-translate-x-px hover:shadow-custom rounded" />
-                    </a>
-                    {project.githubUrl && (
+                  <div className="flex items-center gap-6 text-white flex-wrap">
+                    <h3 className="text-2xl font-bold tracking-tight">
+                      {project.title}
+                    </h3>
+                    <div className="flex items-center gap-6">
                       <a
-                        href={project.githubUrl}
+                        href={project.projectUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <GitHub className="h-6 w-6 cursor-pointer transition ease-in-out hover:-translate-y-px hover:-translate-x-px hover:shadow-custom rounded" />
+                        <ArrowTopRightOnSquareIcon className="h-6 w-6 cursor-pointer transition ease-in-out hover:-translate-y-px hover:-translate-x-px hover:shadow-custom rounded" />
                       </a>
-                    )}
-                  </h3>
+                      {project.githubUrl && (
+                        <a
+                          href={project.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <GitHub className="block h-6 w-6 cursor-pointer transition ease-in-out hover:-translate-y-px hover:-translate-x-px hover:shadow-custom rounded" />
+                        </a>
+                      )}
+                    </div>
+                  </div>
                   <p className="mt-6 text-left text-sm leading-7 text-gray-300">
                     {project.descriptions}
                   </p>
