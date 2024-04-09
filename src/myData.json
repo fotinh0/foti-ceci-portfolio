@@ -4,6 +4,7 @@
       "id": 0,
       "position": "Software Developer",
       "company": "IBM",
+      "url": "https://www.ibm.com/training/",
       "duration": "January 2022 - Present",
       "description": [
         "Develop and maintain internal and external web applications serving over 1.5 million users.",
@@ -14,8 +15,9 @@
     },
     {
       "id": 1,
-      "position": "Web Developer",
+      "position": "Frontend Web Developer",
       "company": "FA Euro New York",
+      "url": "https://www.faeuro.com/",
       "duration": "August 2021 - January 2022",
       "description": [
         "Developed and maintained website updates and enhancements using Wix Code for custom functionality.",
@@ -39,6 +41,7 @@
       "id": 3,
       "position": "Multimedia Assets and Information Management Intern",
       "company": "PCI Media Inc.",
+      "url": "https://www.pcimedia.org/",
       "duration": "November 2020 - February 2021",
       "description": [
         "Enhanced UI/UX via WordPress.",
