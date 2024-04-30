@@ -3,7 +3,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Footer() {
   return (
-    <div id="footer" className="text-gray-300 text-sm">
+    <div id="footer" className="text-gray-300 text-sm pb-4">
       <div className="flex gap-x-8 justify-center mb-8">
         <a
           href="https://www.linkedin.com/in/foti-ceci/"
