@@ -34,7 +34,7 @@ export default function BackToTopButton() {
     <button
       className={`${
         showButton ? "block" : "hidden"
-      } fixed bottom-8 right-8 bg-indigo-600 text-white p-4 rounded-full shadow-lg transition-opacity duration-300 hover:bg-indigo-700 focus:outline-none`}
+      } fixed bottom-8 right-8 bg-indigo-600 text-white p-4 rounded-full shadow-lg transition-opacity duration-300 hover:bg-indigo-700 focus:outline-none z-10`}
       onClick={scrollToTop}
     >
       <ArrowUpIcon className="w-6 h-6" aria-hidden="true" />
