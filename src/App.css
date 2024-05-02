@@ -1,19 +1,18 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   text-align: center;
   scroll-behavior: smooth;
 }
 
 .custom-vertical-tabs {
-    display: none !important
+  display: none !important;
 }
 
 @media screen and (min-width: 767px) {
-    .custom-vertical-tabs {
-        display: flex !important;
-    }
-    .custom-horizontal-tabs {
-        display: none !important;
-    }
+  .custom-vertical-tabs {
+    display: flex !important;
+  }
+  .custom-horizontal-tabs {
+    display: none !important;
+  }
 }
