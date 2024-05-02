@@ -60,6 +60,11 @@ export default function Hero() {
           .
         </p>
         <motion.button
+          onClick={() => {
+            document
+              .getElementById("experience")
+              .scrollIntoView({ behavior: "smooth" });
+          }}
           style={{
             border,
             boxShadow,
