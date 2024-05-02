@@ -43,7 +43,7 @@ export default function Hero() {
         <h2 className="mb-12 text-4xl font-bold tracking-tight text-white sm:text-6xl">
           Foti Ceci
         </h2>
-        <h1 className="animate-bounce bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-7xl md:leading-tight">
+        <h1 className="animate-bounce bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center tracking-tight text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
           I like to code all web things.
         </h1>
         <p className="my-6 max-w-4xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
