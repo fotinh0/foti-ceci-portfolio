@@ -73,6 +73,21 @@
       "technologies": ["Divi", "JavaScript", "WordPress", "SEO"]
     },
     {
+      "title": "Foti Banking App",
+      "imageUrl": "./foti-banking.png",
+      "projectUrl": "foti-banking-app.vercel.app",
+      "githubUrl": "https://github.com/fotinh0/foti-banking-app",
+      "descriptions": "A financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Appwrite",
+        "Plaid",
+        "Dwolla",
+        "Tailwind CSS"
+      ]
+    },
+    {
       "title": "YouTube Clone",
       "imageUrl": "./youtube-clone.png",
       "projectUrl": "https://youtubeclonefc.netlify.app/",
