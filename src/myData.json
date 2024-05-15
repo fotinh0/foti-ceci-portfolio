@@ -59,6 +59,21 @@
       "technologies": ["React", "NodeJS", "SCSS", "DB2"]
     },
     {
+      "title": "AI Image Generator App",
+      "imageUrl": "./ai-generator-application.png",
+      "projectUrl": "https://ai-image-generator-app-nu.vercel.app/",
+      "githubUrl": "https://github.com/fotinh0/ai-image-generator-app",
+      "descriptions": "An AI image generator application built with the MERN stack and powered by OpenAI's DALL-E model. This application allows users to generate unique and creative images based on textual prompts using AI technology.",
+      "technologies": [
+        "MongoDB",
+        "ExpressJS",
+        "React",
+        "NodeJS",
+        "OpenAI DALL-E Model",
+        "Tailwind CSS"
+      ]
+    },
+    {
       "title": "FA Euro Official Site",
       "imageUrl": "./FAEuroNY.png",
       "projectUrl": "https://www.faeuro.com/",
