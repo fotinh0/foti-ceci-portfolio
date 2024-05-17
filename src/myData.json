@@ -59,6 +59,14 @@
       "technologies": ["React", "NodeJS", "SCSS", "DB2"]
     },
     {
+      "title": "AI Article Summarizer",
+      "imageUrl": "./ai-article-summarizer.png",
+      "projectUrl": "https://fcsumz.netlify.app/",
+      "githubUrl": "https://github.com/fotinh0/ai-article-summarizer-app",
+      "descriptions": "This application enables you to summarize articles with just one click using the OpenAI model.",
+      "technologies": ["React", "Redux Toolkit", "Tailwind", "Rapid API"]
+    },
+    {
       "title": "AI Image Generator App",
       "imageUrl": "./ai-generator-application.png",
       "projectUrl": "https://ai-image-generator-app-nu.vercel.app/",
@@ -101,14 +109,6 @@
         "Dwolla",
         "Tailwind CSS"
       ]
-    },
-    {
-      "title": "YouTube Clone",
-      "imageUrl": "./youtube-clone.png",
-      "projectUrl": "https://youtubeclonefc.netlify.app/",
-      "githubUrl": "https://github.com/fotinh0/youtube-clone",
-      "descriptions": "A clone of YouTube showcasing the usage of YouTube Data API.",
-      "technologies": ["React", "Vite", "SCSS", "YouTube Data API"]
     }
   ]
 }
